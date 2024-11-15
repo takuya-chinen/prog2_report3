@@ -71,18 +71,38 @@ public class Hero {
         this.dead = _dead;
     }
 
+    /**
+     * nameフィールドにアクセスするメソッド。
+     * 
+     * @return name 勇者の名前。
+     */
     public String getName() {
         return this.name;
     }
 
+    /**
+     * hitPointフィールドにアクセスするメソッド。
+     * 
+     * @return hitPoint 勇者の体力。
+     */
     public int getHitPoint() {
         return this.hitPoint;
     }
 
+    /**
+     * attackフィールドにアクセスするメソッド。
+     * 
+     * @return attack 勇者の攻撃力。
+     */
     public int getAttack() {
         return this.attack;
     }
 
+    /**
+     * deadフィールドにアクセスするメソッド。
+     * 
+     * @return dead 勇者の生死状態。true = 死亡。
+     */
     public boolean getDead() {
         return this.dead;
     }
