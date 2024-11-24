@@ -73,6 +73,15 @@ public class LivingThing {
     }
 
     /**
+     * attackフィールドのアクセサメソッド。
+     * 
+     * @return attack 体力
+     */
+    public int getAttack() {
+        return this.attack;
+    }
+
+    /**
      * opponentへ攻撃するメソッド。
      * attackに応じて乱数でダメージを算出し、opponent.wounded()によりダメージ処理を実行。
      * 
